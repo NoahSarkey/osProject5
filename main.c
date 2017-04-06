@@ -30,6 +30,11 @@ int currentFrames = 0;
 int fifoframe = 0; 
 int framecounter = 0;
 
+// Second Chance
+int *ref;
+int refptr = 0;
+
+
 // Data Needed
 int diskreads = 0;
 int diskwrites = 0;
@@ -69,6 +74,10 @@ int findLFU(){
 	}
 
 	return pos;
+}
+
+int findsc(){
+
 }
 
 void print_frames(){
@@ -169,19 +178,22 @@ void page_fault_handler( struct page_table *pt, int page )
 			diskwrites+=1;
 		}
 
-		printf("Disk Reads: %d\n", diskreads);
-
-		
 		disk_read(disk, page, &physmem[myframe*PAGE_SIZE]);
 		diskreads+=1;
 		page_table_set_entry(pt, page, myframe, PROT_READ);
 		page_table_set_entry(pt, frame_table[LFUframe], myframe, 0);
 		frame_table[LFUframe] = page;
-		frame_count[LFUframe] = 1;
+		if(permissions == 1){
+			frame_count[LFUframe] = nframes;
+		}
+		if(permissions == 3){
+			frame_count[LFUframe] = frame_count[LFUframe] - 1;
+		}
 		
-		print_frames();
-		return;
-		
+		return;	
+	}
+	else if(!strcmp(algorithm, "sc")){
+
 	}
 	else{
 		printf("Invalid Algorithm\n");
