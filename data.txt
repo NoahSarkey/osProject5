@@ -1,0 +1,152 @@
+Numpages: 8 Numframes: 1
+RAND
+sort result is -14161
+Disk Reads: 196352
+Disk Writes: 40
+Number Faults: 196392
+CUSTOM
+sort result is -14161
+Disk Reads: 196352
+Disk Writes: 40
+Number Faults: 196392
+FIFO
+sort result is -14161
+Disk Reads: 196352
+Disk Writes: 40
+Number Faults: 196392
+ 
+ 
+ 
+Numpages: 8 Numframes: 2
+RAND
+sort result is -14161
+Disk Reads: 69
+Disk Writes: 35
+Number Faults: 104
+CUSTOM
+sort result is -14161
+Disk Reads: 146975
+Disk Writes: 34
+Number Faults: 147010
+FIFO
+sort result is -14161
+Disk Reads: 60
+Disk Writes: 32
+Number Faults: 92
+ 
+ 
+ 
+Numpages: 8 Numframes: 3
+RAND
+sort result is -14161
+Disk Reads: 55
+Disk Writes: 31
+Number Faults: 87
+CUSTOM
+sort result is -14161
+Disk Reads: 97960
+Disk Writes: 28
+Number Faults: 97990
+FIFO
+sort result is -14161
+Disk Reads: 56
+Disk Writes: 32
+Number Faults: 88
+ 
+ 
+ 
+Numpages: 8 Numframes: 4
+RAND
+sort result is -14161
+Disk Reads: 35
+Disk Writes: 27
+Number Faults: 62
+CUSTOM
+sort result is -14161
+Disk Reads: 81692
+Disk Writes: 23
+Number Faults: 81718
+FIFO
+sort result is -14161
+Disk Reads: 39
+Disk Writes: 24
+Number Faults: 63
+ 
+ 
+ 
+Numpages: 8 Numframes: 5
+RAND
+sort result is -14161
+Disk Reads: 33
+Disk Writes: 21
+Number Faults: 56
+CUSTOM
+sort result is -14161
+Disk Reads: 32854
+Disk Writes: 17
+Number Faults: 32875
+FIFO
+sort result is -14161
+Disk Reads: 38
+Disk Writes: 24
+Number Faults: 62
+ 
+ 
+ 
+Numpages: 8 Numframes: 6
+RAND
+sort result is -14161
+Disk Reads: 25
+Disk Writes: 14
+Number Faults: 42
+CUSTOM
+sort result is -14161
+Disk Reads: 16388
+Disk Writes: 13
+Number Faults: 16406
+FIFO
+sort result is -14161
+Disk Reads: 32
+Disk Writes: 24
+Number Faults: 56
+ 
+ 
+ 
+Numpages: 8 Numframes: 7
+RAND
+sort result is -14161
+Disk Reads: 14
+Disk Writes: 7
+Number Faults: 27
+CUSTOM
+sort result is -14161
+Disk Reads: 16
+Disk Writes: 6
+Number Faults: 28
+FIFO
+sort result is -14161
+Disk Reads: 32
+Disk Writes: 24
+Number Faults: 56
+ 
+ 
+ 
+Numpages: 8 Numframes: 8
+RAND
+sort result is -14161
+Disk Reads: 8
+Disk Writes: 0
+Number Faults: 16
+CUSTOM
+sort result is -14161
+Disk Reads: 8
+Disk Writes: 0
+Number Faults: 16
+FIFO
+sort result is -14161
+Disk Reads: 8
+Disk Writes: 0
+Number Faults: 16
+ 
+ 
+ 
