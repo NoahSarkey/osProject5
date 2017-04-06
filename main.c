@@ -52,13 +52,9 @@ int findpage(int page){
 }*/
 
 void printData(){
-
-	printf("%d,%d,%d\n",diskreads, diskwrites, numfaults);
-	/*
 	printf("Disk Reads: %d\n", diskreads);
 	printf("Disk Writes: %d\n", diskwrites);
 	printf("Number Faults: %d\n", numfaults);
-	*/
 }
 
 int findLFU(){
