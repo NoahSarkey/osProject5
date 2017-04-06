@@ -52,9 +52,13 @@ int findpage(int page){
 }*/
 
 void printData(){
+
+	printf("%d,%d,%d\n",diskreads, diskwrites, numfaults);
+	/*
 	printf("Disk Reads: %d\n", diskreads);
 	printf("Disk Writes: %d\n", diskwrites);
 	printf("Number Faults: %d\n", numfaults);
+	*/
 }
 
 int findLFU(){
@@ -74,10 +78,6 @@ int findLFU(){
 	}
 
 	return pos;
-}
-
-int findsc(){
-
 }
 
 void print_frames(){
@@ -191,9 +191,6 @@ void page_fault_handler( struct page_table *pt, int page )
 		}
 		
 		return;	
-	}
-	else if(!strcmp(algorithm, "sc")){
-
 	}
 	else{
 		printf("Invalid Algorithm\n");
