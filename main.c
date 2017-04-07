@@ -52,6 +52,7 @@ int findpage(int page){
 }*/
 
 void printData(){
+	// printf("%d, %d, %d\n", diskreads, diskwrites, numfaults);
 	printf("Disk Reads: %d\n", diskreads);
 	printf("Disk Writes: %d\n", diskwrites);
 	printf("Number Faults: %d\n", numfaults);
@@ -179,10 +180,10 @@ void page_fault_handler( struct page_table *pt, int page )
 		page_table_set_entry(pt, page, myframe, PROT_READ);
 		page_table_set_entry(pt, frame_table[LFUframe], myframe, 0);
 		frame_table[LFUframe] = page;
-		if(permissions == 1){
-			frame_count[LFUframe] = nframes;
+		if(permissions == 1){ // read permissions only, if page tries to write to this, page fault will result
+			frame_count[LFUframe] = frame_count[LFUframe] + nframes;
 		}
-		if(permissions == 3){
+		if(permissions == 3){ // read and write permissions, given priority for eviction 
 			frame_count[LFUframe] = frame_count[LFUframe] - 1;
 		}
 		
