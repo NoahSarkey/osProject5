@@ -1,44 +1,11 @@
-sort result is -193255
-Disk Reads: 1642
-Disk Writes: 875
-Number Faults: 2517
-sort result is -193255
-Disk Reads: 1044
-Disk Writes: 619
-Number Faults: 1663
-sort result is -193255
-Disk Reads: 862
-Disk Writes: 515
-Number Faults: 1377
-sort result is -193255
-Disk Reads: 713
-Disk Writes: 444
-Number Faults: 1160
-sort result is -193255
-Disk Reads: 566
-Disk Writes: 338
-Number Faults: 926
-sort result is -193255
-Disk Reads: 451
-Disk Writes: 288
-Number Faults: 760
-sort result is -193255
-Disk Reads: 387
-Disk Writes: 230
-Number Faults: 650
-sort result is -193255
-Disk Reads: 322
-Disk Writes: 173
-Number Faults: 545
-sort result is -193255
-Disk Reads: 233
-Disk Writes: 105
-Number Faults: 408
-sort result is -193255
-Disk Reads: 142
-Disk Writes: 34
-Number Faults: 266
-sort result is -193255
-Disk Reads: 100
-Disk Writes: 0
-Number Faults: 200
+1642, 875, 2517
+1044, 619, 1663
+862, 515, 1377
+713, 444, 1160
+566, 338, 926
+451, 288, 760
+387, 230, 650
+322, 173, 545
+233, 105, 408
+142, 34, 266
+100, 0, 200

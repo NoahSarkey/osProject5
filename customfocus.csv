@@ -1,44 +1,11 @@
-focus result is -1268
-Disk Reads: 324
-Disk Writes: 228
-Number Faults: 552
-focus result is -1268
-Disk Reads: 304
-Disk Writes: 218
-Number Faults: 522
-focus result is -1268
-Disk Reads: 285
-Disk Writes: 209
-Number Faults: 494
-focus result is -1268
-Disk Reads: 266
-Disk Writes: 196
-Number Faults: 466
-focus result is -1268
-Disk Reads: 239
-Disk Writes: 164
-Number Faults: 425
-focus result is -1268
-Disk Reads: 194
-Disk Writes: 116
-Number Faults: 342
-focus result is -1268
-Disk Reads: 171
-Disk Writes: 88
-Number Faults: 306
-focus result is -1268
-Disk Reads: 154
-Disk Writes: 66
-Number Faults: 282
-focus result is -1268
-Disk Reads: 133
-Disk Writes: 40
-Number Faults: 250
-focus result is -1268
-Disk Reads: 115
-Disk Writes: 17
-Number Faults: 224
-focus result is -1268
-Disk Reads: 100
-Disk Writes: 0
-Number Faults: 200
+324, 228, 552
+304, 218, 522
+285, 209, 494
+266, 196, 466
+239, 164, 425
+194, 116, 342
+171, 88, 306
+154, 66, 282
+133, 40, 250
+115, 17, 224
+100, 0, 200

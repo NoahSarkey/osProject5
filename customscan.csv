@@ -1,44 +1,11 @@
-scan result is 522240000
-Disk Reads: 1096
-Disk Writes: 100
-Number Faults: 1196
-scan result is 522240000
-Disk Reads: 1086
-Disk Writes: 100
-Number Faults: 1186
-scan result is 522240000
-Disk Reads: 1076
-Disk Writes: 100
-Number Faults: 1176
-scan result is 522240000
-Disk Reads: 1066
-Disk Writes: 100
-Number Faults: 1166
-scan result is 522240000
-Disk Reads: 1053
-Disk Writes: 100
-Number Faults: 1153
-scan result is 522240000
-Disk Reads: 987
-Disk Writes: 100
-Number Faults: 1087
-scan result is 522240000
-Disk Reads: 957
-Disk Writes: 100
-Number Faults: 1057
-scan result is 522240000
-Disk Reads: 567
-Disk Writes: 100
-Number Faults: 667
-scan result is 522240000
-Disk Reads: 406
-Disk Writes: 100
-Number Faults: 506
-scan result is 522240000
-Disk Reads: 193
-Disk Writes: 52
-Number Faults: 293
-scan result is 522240000
-Disk Reads: 100
-Disk Writes: 0
-Number Faults: 200
+1096, 100, 1196
+1086, 100, 1186
+1076, 100, 1176
+1066, 100, 1166
+1053, 100, 1153
+987, 100, 1087
+957, 100, 1057
+567, 100, 667
+406, 100, 506
+193, 52, 293
+100, 0, 200
